@@ -1,0 +1,50 @@
+/*tags gerais*/
+body{background-color:black;color: white;width: 83%;}
+nav{display: flex;float:left;text-align: center;}
+ul{display: flex;}
+.tudo{margin:0 auto;width: 100%;}
+
+/*Imagem dos Rider*/
+.krZeroOne header, .krRevice header{margin-left: 215px;width: 500px;}
+img{height: 250px;width: 500px;}
+
+/*butao dos rider*/
+.krRevice button{display: none;}
+.krZeroOne button{display: none;}
+
+/*link do episodio*/
+a{text-decoration: none;color:white;}
+a:hover{color :red;}
+
+/*div dos botoes*/
+#button1{display:block;width: 200px;}
+button{width: 200px;}
+.riderbtn{width: 200px; margin-top: 100px;}/*div dos botoes principais*/
+/*--------------------------------------------------------*/
+
+/*tags da primeira serie*/
+
+/*div que contem os filmes só aparece quando clica*/
+.krRevice .revi{display: block;}
+
+/*div que contem os filmes*/
+.revi{display: none;} 
+
+/*lista de episodios, aparecem quando clica no botao*/
+.krRevice li{list-style: none;padding:1%;border: 1px solid rgb(255, 255, 255);width: 75px;}
+.krRevice ul{display: flex;}
+.krRevice .transp{border: 1px solid transparent;width: 75px;padding: 1%;list-style: none;color: transparent;}
+/*-----------------------------------------------------------------------------------------------------------*/
+
+/*tags da segunda serie*/
+
+/*div que contem os filmes só aparece quando clica*/
+.krZeroOne .O1{display: block;}
+
+/*div que contem os filmes*/
+.O1{display: none;}
+
+/*lista de episodios, aparecem quando clica no botao*/
+.krZeroOne li{list-style: none;padding:1%;border: 1px solid rgb(255, 255, 255);width: 75px;}
+.krZeroOne ul{display: flex;}
+.krZeroOne .transp{border: 1px solid transparent;width: 75px;padding: 1%;list-style: none;color: transparent;}
