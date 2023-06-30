@@ -4,8 +4,15 @@ nav{display: flex;float:left;text-align: center;}
 ul{display: flex;}
 .tudo{margin:0 auto;width: 100%;}
 
+
+/*header invisivel*/
+.header{width: 215px;opacity: 0;}
+.krRevice .header{display: none ;}
+.krZeroOne .header{display: none ;}
+
+
 /*Imagem dos Rider*/
-.krZeroOne header, .krRevice header{margin-left: 215px;width: 500px;}
+.krRevice header{margin-left: 215px;width: 500px;} .krZeroOne header{margin-left: 215px;width: 500px;height: 250px;}
 img{height: 250px;width: 500px;}
 
 /*butao dos rider*/
@@ -17,9 +24,8 @@ a{text-decoration: none;color:white;}
 a:hover{color :red;}
 
 /*div dos botoes*/
-#button1{display:block;width: 200px;}
 button{width: 200px;}
-.riderbtn{width: 200px; margin-top: 100px;}/*div dos botoes principais*/
+.riderbtn{width: 200px;display: block;margin-top: 0%;position:relative;}/*div dos botoes principais*/
 /*--------------------------------------------------------*/
 
 /*tags da primeira serie*/
@@ -33,7 +39,7 @@ button{width: 200px;}
 /*lista de episodios, aparecem quando clica no botao*/
 .krRevice li{list-style: none;padding:1%;border: 1px solid rgb(255, 255, 255);width: 75px;}
 .krRevice ul{display: flex;}
-.krRevice .transp{border: 1px solid transparent;width: 75px;padding: 1%;list-style: none;color: transparent;}
+.krRevice .transp li{border: 1px solid transparent;width: 75px;padding: 1%;list-style: none;color: transparent;}
 /*-----------------------------------------------------------------------------------------------------------*/
 
 /*tags da segunda serie*/
